@@ -7,6 +7,10 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'welcome#index'
 
+  # resources :question, only: :show, param: :api_key
+  get '/questions', to: 'question#show', as: 'question'
+
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

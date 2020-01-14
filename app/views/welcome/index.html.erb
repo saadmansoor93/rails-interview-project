@@ -1,0 +1,43 @@
+<br>
+<br>
+<br>
+<h1>Welcome Dashboard</h1>
+<table style="width:100%">
+  <caption>Models Data</caption>
+  <tr>
+    <th>Model</th>
+    <th>Count</th>
+  </tr>
+  <tr>
+    <td>Users</td>
+    <td><%= @user_count%></td>
+  </tr>
+  <tr>
+    <td>Questions</td>
+    <td><%= @question_count%></td>
+  </tr>
+  <tr>
+    <td>Answers</td>
+    <td><%= @answer_count%></td>
+  </tr>
+</table>
+<br>
+<br>
+<br>
+<h1>Tenant Requests</h1>
+
+<table style="width:100%">
+  <caption>Tenants Request Count</caption>
+  <tr>
+    <th>Tenant Name</th>
+    <th>API Key</th>
+    <th>Request Count</th>
+  </tr>
+  <% @tenants.each do |t|%>
+    <tr>
+      <td><%= t.name%></td>
+      <td><%= t.api_key%></td>
+      <td><%= t.request_count%></td>
+    </tr>
+  <% end %>
+</table>
