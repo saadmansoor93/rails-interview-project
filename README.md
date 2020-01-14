@@ -9,7 +9,7 @@ Please select one of the `api_key`s from the dashboard page and enter the url: h
 
 Each time a request is made with a certain `api_key`, the counter will go up on the dashboard page.
 
-I recommend adding adding a chrome extension such as JSONView to easily navigate through the returned json object.  
+I recommend adding a chrome extension such as JSONView to easily navigate through the returned json object.  
 
 Please refer to screenshots below for expected output
 
