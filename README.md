@@ -3,7 +3,7 @@
 Please run `rails s` and navigate to http://localhost:3000/ in your browser. 
 
 
-## To get get questions and answers for an authorized tenant:
+## To get questions and answers for an authorized tenant:
 
 Please select one of the `api_key`s from the dashboard page and enter the url: http://localhost:3000/questions?api_key=[INSERT_API_KEY_HERE]. For example http://localhost:3000/questions?api_key=c8ddad819cfa8be2523983a2744c7538
 
