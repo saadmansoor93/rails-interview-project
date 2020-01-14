@@ -8,6 +8,14 @@ Please select one of the `api_key`s from the dashboard page and enter the url: h
 
 I recommend adding adding a chrome extension such as JSONView to easily navigate through the returned json object.  
 
+Please refer to screenshots below for expected output
+
+## Screenshots:
+
+![alt text](https://github.com/saadmansoor93/rails-interview-project/blob/master/dashboard_screenshot.png)
+
+
+![alt text](https://github.com/saadmansoor93/rails-interview-project/blob/master/questions_and_answers_screenshot.png)
 
 
 # Kaleo Rails Engineer Candidate Interview Project
