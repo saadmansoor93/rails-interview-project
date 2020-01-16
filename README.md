@@ -1,3 +1,26 @@
+## To view the dashboard:
+
+Please run `rails s` and navigate to http://localhost:3000/ in your browser. 
+
+
+## To get questions and answers for an authorized tenant:
+
+Please select one of the `api_key`s from the dashboard page and enter the url: http://localhost:3000/questions?api_key=[INSERT_API_KEY_HERE]. For example http://localhost:3000/questions?api_key=c8ddad819cfa8be2523983a2744c7538
+
+Each time a request is made with a certain `api_key`, the counter will go up on the dashboard page.
+
+I recommend adding a chrome extension such as JSONView to easily navigate through the returned json object.  
+
+Please refer to screenshots below for expected output
+
+## Screenshots:
+
+![alt text](https://github.com/saadmansoor93/rails-interview-project/blob/master/dashboard_screenshot.png)
+
+
+![alt text](https://github.com/saadmansoor93/rails-interview-project/blob/master/questions_and_answers_screenshot.png)
+
+
 # Kaleo Rails Engineer Candidate Interview Project
 
 Thanks for taking the time to complete this exercise. We're excited that you're considering joining our amazing team.
