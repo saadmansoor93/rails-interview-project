@@ -20,6 +20,9 @@ Please refer to screenshots below for expected output
 
 ![alt text](https://github.com/saadmansoor93/rails-interview-project/blob/master/questions_and_answers_screenshot.png)
 
+## Rspecs:
+
+To validate tests. Run the `rspec` command in your terminal. 
 
 # Kaleo Rails Engineer Candidate Interview Project
 
